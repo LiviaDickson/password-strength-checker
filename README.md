@@ -64,6 +64,15 @@ Issues:
   - this is a known common password - never use it
 ```
 
+## Tests
+
+Unit tests cover the entropy math and the rule that a known-common password is
+always rated Very Weak. Run them with:
+
+```bash
+python3 -m unittest
+```
+
 ## What I'd add next
 
 - A bigger common-password list (the real ones have millions of entries)
